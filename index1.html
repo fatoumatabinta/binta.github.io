@@ -13,139 +13,192 @@
 </head>
 
 <body>
-  <header>
-    <nav class="menu">
-      <div class="m-left">
-        <div class="logo">
-          <img src="IMG_4910.jpg" alt="image">
+  <main>
+    <header id="header">
+      <div class="overlay overlay-lg">
+        <img src="./img/shapes/square.png" class="shape square" alt="" />
+        <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+        <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="" />
+        <img src="./img/shapes/half-circle.png" class="shape half-circle2" alt="" />
+        <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+        <img src="./img/shapes/wave.png" class="shape wave wave1" alt="" />
+        <img src="./img/shapes/wave.png" class="shape wave wave2" alt="" />
+        <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+        <img src="./img/shapes/letters.png" class="letters" alt="" />
+        <img src="./img/shapes/points1.png" class="points points1" alt="" />
+      </div>
+
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <img src="IMG_4910.jpg" alt="" />
+          </div>
+
+          <div class="links">
+            <ul>
+            
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#testimonials">Mon CV</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <a href="#hireme" class="active">Rejoignez-moi</a>
+              </li>
+            </ul>
+          </div>
+        
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <div class="container grid-2">
+          <div class="column-1">
+            <h1 class="header-title">Bintou rassoul</h1>
+            <p class="text">
+              Hello, I'm ouleye, web design and developer. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Totam magni sit
+              hic!
+            </p>
+            <a href="#" class="btn">Download CV</a>
+          </div>
+
+          <div class="column-2 image">
+            <img src="./img/shapes/points2.png" class="points points2" alt="" />
+            <div class="banniere position-relative">
+              <img src="unnamed (1).jpg" class="img-element z-index" alt="" />
+            </div>
+          </div>
         </div>
       </div>
-      <div class="m-right">
-        <a href="#" class="m-link">projet</a>
-        <a href="#" class="m-link">contact</a>
-        <a href="#" class="m-link">service</a>
-        <a href="#" class="m-link">competence</a>
+    </header>
+
+    <header>
+      
+    </header>
+
+
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Who Am I">About me</h3>
+        </div>
+
+        <div class="section-body grid-2">
+          <div class="column-1">
+            <h3 class="title-sm">Hello, c'est</h3>
+            <p class="text">
+              hello c'est oulye ndiaye developpeurs back-end
+              j'ai eu a travailler sur pas mal de projet;
+              notament un site e-commerce denommé br service
+              et une application web
+            </p>
+            <div class="skills">
+              <div class="skill html">
+                <h3 class="skill-title">HTML</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="90%"></div>
+                </div>
+              </div>
+              <div class="skill css">
+                <h3 class="skill-title">CSS</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="70%"></div>
+                </div>
+              </div>
+              <div class="skill js">
+                <h3 class="skill-title">JavaScript</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="80%"></div>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn">Read more</a>
+          </div>
+
+          <div class="column-2 image">
+            <img src="./img/shapes/points4.png" class="points" alt="" />
+            <img src="unnamed (3).jpg" class="z-index" alt="" />
+          </div>
+        </div>
       </div>
-    </nav>
-  </header>
-
-  <div class="banniere position-relative">
-    <img src="unnamed (1).jpg" class="img-fluid position-relative h-50" class="shape half-circle2" alt="image">
-    <div class="banniere-texte">
-      <h3>Bintou rassoul</h3>
-      <p>je suis developpeuse ,entrepreneur</p>
-      <button>Telecharger Cv</button>
-    </div>
-
-  </div>
-  <section class="about section" id="about">
-    <div class="container">
-      <div class="section-header">
-        <h3 class="title" data-title="Who Am I">About me</h3>
-      </div>
-
-      <div class="section-body grid-2">
-        <div class="column-1">
-          <h3 class="title-sm">Hello, I'm</h3>
+    </section>
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="C'est quoi?">Services</h3>
           <p class="text">
-            hello c'est oulye ndiaye developpeurs back-end
-            j'ai eu a travailler sur pas mal de projet;
-            notament un site e-commerce denommé br service
-            et une application web
+            les services c'est l'ensembles des activités que je mene
+            qui sont dans le domaine du developpement web, le markting
+            digital, le web desingn
           </p>
-          <div class="skills">
-            <div class="skill html">
-              <h3 class="skill-title">HTML</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" data-progress="90%"></div>
-              </div>
-            </div>
-            <div class="skill css">
-              <h3 class="skill-title">CSS</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" data-progress="70%"></div>
-              </div>
-            </div>
-            <div class="skill js">
-              <h3 class="skill-title">JavaScript</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" data-progress="80%"></div>
+        </div>
+
+        <div class="cards">
+          <div class="card-wrap">
+
+            <div class="card" data-card="UI/UX">
+              <div class="card-content z-index">
+                <img src="application-d-internet-89908663.jpg" class="icon" alt="" />
+                <h3 class="title-sm">Web Design</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                  est suscipit itaque?
+                </p>
+                <a href="#" class="btn small">voir plus</a>
               </div>
             </div>
           </div>
-          <a href="#" class="btn">Read more</a>
-        </div>
 
-        <div class="column-2 image">
-          <img src="./img/shapes/points4.png" class="points" alt="" />
-          <img src="unnamed (3).jpg" class="z-index" alt="" />
+          <div class="card-wrap">
+            <div class="card" data-card="Code">
+              <div class="card-content z-index">
+                <img src="images (1).png" class="icon" alt="" />
+                <h3 class="title-sm">Web Development</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores suscipit nobis dolore?
+                </p>
+                <a href="#" class="btn small">voir plus</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+
+            <div class="card" data-card="App">
+              <div class="card-content z-index">
+                <img src="developpeur_web_mobile.jpg" class="icon" alt="" />
+                <h3 class="title-sm">App Development</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum hic veniam nihil.
+                </p>
+                <a href="#" class="btn small">voir plus</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+    <h1 class="moncv"> Mon CV
+    </h1>
+    <div class="trait">
+
     </div>
-  </section>
-  <section class="services section" id="services">
-    <div class="container">
-      <div class="section-header">
-        <h3 class="title" data-title="C'est quoi?">Services</h3>
-        <p class="text">
-          les services c'est l'ensembles des activités que je mene
-          qui sont dans le domaine du developpement web, le markting
-          digital, le web desingn
-        </p>
-      </div>
-
-      <div class="cards">
-        <div class="card-wrap">
-
-          <div class="card" data-card="UI/UX">
-            <div class="card-content z-index">
-              <img src="application-d-internet-89908663.jpg" class="icon" alt="" />
-              <h3 class="title-sm">Web Design</h3>
-              <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                est suscipit itaque?
-              </p>
-              <a href="#" class="btn small">voir plus</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-wrap">
-          <div class="card" data-card="Code">
-            <div class="card-content z-index">
-              <img src="images (1).png" class="icon" alt="" />
-              <h3 class="title-sm">Web Development</h3>
-              <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores suscipit nobis dolore?
-              </p>
-              <a href="#" class="btn small">voir plus</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-wrap">
-
-          <div class="card" data-card="App">
-            <div class="card-content z-index">
-              <img src="developpeur_web_mobile.jpg" class="icon" alt="" />
-              <h3 class="title-sm">App Development</h3>
-              <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum hic veniam nihil.
-              </p>
-              <a href="#" class="btn small">voir plus</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <h1 class="moncv"> Mon CV
-  </h1>
-  <div class="trait">
-
-  </div>
 </body>
 
 </html>
