@@ -45,13 +45,7 @@
     height: 30px;
     
 }
-.banniere-texte{
-    position: absolute;
-    top: 60rem;
-    margin-left: 70%;
-    color: white;
-    text-align: center;
-}
+
 .banniere-texte h3{
     font-size: 60px;
 }
@@ -765,6 +759,14 @@ header .circle {
 
 .img-description {
   width: 100%;
+}
+.image2{
+  position: relative;
+  top: 10px;
+  color:saddlebrown;
+  right: 30%;
+  stroke:rgb(0, 0, 0);
+  
 }
 
 .img-overlay h3 {
