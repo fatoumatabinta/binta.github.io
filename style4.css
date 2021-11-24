@@ -37,6 +37,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    filter: brightness(60%);
 
 
 }
@@ -91,12 +92,23 @@
 :root {
   --dark-one: #333;
   --dark-two: #7a7a7a;
-  --main-color: #4cc9fb;
+  --main-color: #00cccc;
   --light-one: rgb(255, 255, 255);
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
 }
-
+.titrebaniere{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:ghostwhite;
+  font-size: 39px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  stroke: chocolate;
+  
+ 
+   }
 /* Genral Styles */
 
 *,
@@ -1301,7 +1313,7 @@ header .circle {
 /* Footer */
 
 .footer {
-  background-color: #222;
+  background-color:saddlebrown;
   padding: 6rem 0;
 }
 
@@ -1346,7 +1358,7 @@ header .circle {
 }
 
 .footer-input {
-  background: #373737;
+  background:lightyellow;
   color: #333;
   outline: none;
   border: none;
@@ -1411,13 +1423,13 @@ header .circle {
 .followme .footer-line {
   width: 60px;
   height: 2px;
-  background-color: #7b7b7b;
+  background-color:lightyellow;
   margin: 0 1.2rem;
   display: inline-block;
 }
 
 .social-media a {
-  color: #7b7b7b;
+  color:lightyellow;
   font-size: 1.3rem;
   margin-right: 0.4rem;
   transition: 0.3s;
@@ -2168,7 +2180,7 @@ header .circle {
     width: 90%;
     max-width: 500px;
     height: 1px;
-    background-color: #7b7b7b;
+    background-color:lightseagreen;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -2301,4 +2313,3 @@ header .circle {
 }
 
 
-/* End Responsive */
