@@ -737,7 +737,7 @@ header .circle {
   left: 0;
   z-index: 2;
   color: var(--light-one);
-  background-color: rgba(120, 76, 251, 0.55);
+  background-color: rgba(21, 198, 221, 0.55);
   display: flex;
   flex-direction: column;
   align-items: center;
